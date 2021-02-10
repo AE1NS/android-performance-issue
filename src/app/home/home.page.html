@@ -1,0 +1,22 @@
+<ion-content>
+  <div style="margin-bottom: 200px" *ngFor="let item of items">
+    <div>
+      <div style="overflow: auto; display: flex;">
+        <div style="flex: 0 0 auto; margin-right: 10px;" [routerLink]="['/test']" routerDirection="forward"
+          *ngFor="let item of items">
+          <div>
+            <fa-icon icon="star"></fa-icon>
+            <fa-icon icon="star"></fa-icon>
+            <fa-icon icon="star"></fa-icon>
+            <fa-icon icon="star"></fa-icon>
+            <fa-icon icon="star"></fa-icon>
+            <fa-icon icon="star"></fa-icon>
+          </div>
+          <div>
+            Lorem Ipsum
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</ion-content>

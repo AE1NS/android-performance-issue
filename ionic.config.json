@@ -1,0 +1,7 @@
+{
+  "name": "performance-issue",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
